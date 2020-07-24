@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,6 +8,8 @@
     <title>Lesson 1</title>
 </head>
 <body>
-
+    <?php
+        echo "Hey";
+    ?>
 </body>
 </html>
