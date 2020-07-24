@@ -16,9 +16,9 @@ $winie = "I'm Winie. I have 2 {$fruit}s";
 </head>
 <body>
 
-    <h1><?php echo $title?></h1>
+    <h1><?php echo $title;?></h1>
 
-    <p><?php echo $winie?></p>
+    <p><?php echo $winie;?></p>
 
 </body>
 </html>
