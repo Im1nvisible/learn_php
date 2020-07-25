@@ -1,5 +1,38 @@
 <?php
 
+error_reporting(-1);
+
+/*
+$var = true;
+var_dump($var);
+echo gettype($var);
+*/
+
+/*
+$int = 10;
+var_dump($int);
+*/
+
+/*
+$fl = 1.2;
+var_dump($fl);
+*/
+
+$var = 10;
+$str = 'This is \'string\'. $var';
+
+$str2 = "This is \"string\". $var";
+
+
+$str3 = <<<HERE
+This is "string". $var
+HERE;
+
+$str4 = <<<'HERE'
+This 'is' "string". $var
+HERE;
+
+echo $str4;
 
 
 ?>
