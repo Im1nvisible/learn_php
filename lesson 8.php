@@ -37,6 +37,12 @@ for($i = 0; $i < count($arr); $i++ ){
     echo $arr[$i] . '<br>';
 }
 
+echo '<select>';
+for ($i = 1900; $i <= 2020; $i++){
+    echo '<option>$i</option>';
+}
+echo '</select>';
+
 ?>
 </body>
 </html>
